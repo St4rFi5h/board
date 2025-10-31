@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* 메뉴 */
+
+.navbar-menu li ,
+.navbar-icons li {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* 로고 */
+.navbar-logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111;
+    text-decoration: none; /*밑줄 제거*/
+}
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/*각 메뉴들 마우스 올릴 시 번쩍 번쩍 멋지게*/
+/*li 태그 a 태그 전부 적용 */
+.navbar-menu li a,
+.navbar-menu li a:visited,
+.navbar-menu li a:hover,
+.navbar-menu li a:active {
+    color: #333 !important;
+    text-decoration: none;  /*밑줄방지*/
+    transition: color 0.2s ease;
+}
+
+/*네이게이션 좌측 아이콘 영역도 마우스 올릴 시 번쩍 번쩍 멋지게*/
+.navbar-icons li a,
+.navbar-icons li a:visited,
+.navbar-icons li a:hover,
+.navbar-icons li a:active {
+    color: #333 !important;
+    text-decoration: none; /*밑줄방지*/
+    transition: color 0.2s ease;
+}
+
+
+.navbar-menu li a:hover,
+.navbar-icons li a:hover{
+    color: #ff6b00 !important;
+}
+
+/* 아이콘 */
+.navbar-icons {
+    display: flex;
+    gap: 15px;
+    list-style: none; /*자꾸 점이나옴*/
+    font-size: 18px;
+    cursor: pointer;
+}
+
+

@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import ImageSlider from "../components/ImageSlider";
-import "./Main.css";
+import Navbar from "../../components/common/Navbar";
+import ImageSlider from "../../components/common/ImageSlider";
+import "./MainPage.css";
 
-function Main() {
+function MainPage() {
     return (
         <>
             <Navbar />
@@ -25,4 +25,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default MainPage;

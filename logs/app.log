@@ -1,0 +1,265 @@
+2025-10-31 11:52:51.223 [main] INFO  o.e.p.ProjectBoardPjwApplication - Starting ProjectBoardPjwApplication using Java 17.0.12 with PID 17112 (C:\PJW\project_board_PJW\build\classes\java\main started by DIR in C:\PJW\project_board_PJW)
+2025-10-31 11:52:51.228 [main] DEBUG o.e.p.ProjectBoardPjwApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 11:52:51.229 [main] INFO  o.e.p.ProjectBoardPjwApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 11:52:51.874 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2025-10-31 11:52:51.874 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'org.example.project_board_pjw'
+2025-10-31 11:52:51.930 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-31 11:52:51.946 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-10-31 11:52:52.035 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\PJW\project_board_PJW\build\classes\java\main\org\example\project_board_pjw\mapper\UserMapper.class]
+2025-10-31 11:52:52.037 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'org.example.project_board_pjw.mapper.UserMapper' mapperInterface
+2025-10-31 11:52:52.363 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 11:52:52.372 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 11:52:52.373 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 11:52:52.373 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-31 11:52:52.416 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 11:52:52.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1151 ms
+2025-10-31 11:52:52.525 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-31 11:52:52.650 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6de43bc1
+2025-10-31 11:52:52.652 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-31 11:52:52.680 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-31 11:52:52.747 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-31 11:52:52.779 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-31 11:52:53.037 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-31 11:52:53.135 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-31 11:52:53.372 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-31 11:52:53.376 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 11:52:53.525 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\PJW\project_board_PJW\build\resources\main\mapper\UserMapper.xml]'
+2025-10-31 11:52:53.555 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-31 11:52:53.577 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-10-31 11:52:53.747 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-10-31 11:52:53.852 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 11:52:53.865 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 11:52:53.874 [main] INFO  o.e.p.ProjectBoardPjwApplication - Started ProjectBoardPjwApplication in 3.11 seconds (process running for 11.657)
+2025-10-31 11:53:18.388 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 11:53:18.388 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 11:53:18.389 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-31 12:00:34.055 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 12:00:34.150 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 12:00:34.154 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:00:34.157 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-31 12:00:34.162 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-31 12:00:45.103 [main] INFO  o.e.p.ProjectBoardPjwApplication - Starting ProjectBoardPjwApplication using Java 17.0.12 with PID 14556 (C:\PJW\project_board_PJW\build\classes\java\main started by DIR in C:\PJW\project_board_PJW)
+2025-10-31 12:00:45.111 [main] DEBUG o.e.p.ProjectBoardPjwApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 12:00:45.114 [main] INFO  o.e.p.ProjectBoardPjwApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 12:00:46.525 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2025-10-31 12:00:46.526 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'org.example.project_board_pjw'
+2025-10-31 12:00:46.698 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-31 12:00:46.736 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-10-31 12:00:46.943 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\PJW\project_board_PJW\build\classes\java\main\org\example\project_board_pjw\mapper\UserMapper.class]
+2025-10-31 12:00:46.945 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'org.example.project_board_pjw.mapper.UserMapper' mapperInterface
+2025-10-31 12:00:47.798 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 12:00:47.818 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:00:47.821 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 12:00:47.822 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-31 12:00:47.945 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 12:00:47.945 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2735 ms
+2025-10-31 12:00:48.211 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-31 12:00:48.498 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2313db84
+2025-10-31 12:00:48.502 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-31 12:00:48.562 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-31 12:00:48.673 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-31 12:00:48.742 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-31 12:00:49.350 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-31 12:00:49.550 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-31 12:00:50.094 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-31 12:00:50.102 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:00:50.388 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\PJW\project_board_PJW\build\resources\main\mapper\UserMapper.xml]'
+2025-10-31 12:00:50.475 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-31 12:00:50.529 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-10-31 12:00:50.967 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-10-31 12:00:51.226 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:00:51.262 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 12:00:51.283 [main] INFO  o.e.p.ProjectBoardPjwApplication - Started ProjectBoardPjwApplication in 7.326 seconds (process running for 8.379)
+2025-10-31 12:01:00.051 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 12:01:00.051 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 12:01:00.052 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-31 12:02:53.362 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-10-31 12:02:53.372 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a89bbbe] was not registered for synchronization because synchronization is not active
+2025-10-31 12:02:53.392 [http-nio-8080-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@895340491 wrapping com.mysql.cj.jdbc.ConnectionImpl@2313db84] will not be managed by Spring
+2025-10-31 12:02:53.399 [http-nio-8080-exec-6] DEBUG o.e.p.m.UserMapper.selectUserById - ==>  Preparing: SELECT user_id, user_pw, user_nm, last_login_dt, profile_img, skin_id, point_amt, leave_dt, create_dt, create_id, update_dt, update_id, user_st, user_role, rmk_txt FROM user_tb WHERE user_id = ?
+2025-10-31 12:02:53.439 [http-nio-8080-exec-6] DEBUG o.e.p.m.UserMapper.selectUserById - ==> Parameters: testId@testme.com(String)
+2025-10-31 12:02:53.471 [http-nio-8080-exec-6] DEBUG o.e.p.m.UserMapper.selectUserById - <==      Total: 1
+2025-10-31 12:02:53.473 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a89bbbe]
+2025-10-31 12:10:08.707 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 12:10:08.803 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 12:10:08.808 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:10:08.809 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-31 12:10:08.814 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-31 12:12:20.172 [main] INFO  o.e.p.ProjectBoardPjwApplication - Starting ProjectBoardPjwApplication using Java 17.0.12 with PID 9596 (C:\PJW\project_board_PJW\build\classes\java\main started by DIR in C:\PJW\project_board_PJW)
+2025-10-31 12:12:20.174 [main] DEBUG o.e.p.ProjectBoardPjwApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 12:12:20.174 [main] INFO  o.e.p.ProjectBoardPjwApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 12:12:20.591 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2025-10-31 12:12:20.591 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'org.example.project_board_pjw'
+2025-10-31 12:12:20.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-31 12:12:20.654 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-10-31 12:12:20.724 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\PJW\project_board_PJW\build\classes\java\main\org\example\project_board_pjw\mapper\UserMapper.class]
+2025-10-31 12:12:20.725 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'org.example.project_board_pjw.mapper.UserMapper' mapperInterface
+2025-10-31 12:12:20.996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 12:12:21.004 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:12:21.005 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 12:12:21.005 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-31 12:12:21.046 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 12:12:21.047 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
+2025-10-31 12:12:21.127 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-31 12:12:21.232 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74f280bd
+2025-10-31 12:12:21.234 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-31 12:12:21.261 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-31 12:12:21.300 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-31 12:12:21.323 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-31 12:12:21.525 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-31 12:12:21.603 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-31 12:12:21.808 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-31 12:12:21.816 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:12:21.921 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\PJW\project_board_PJW\build\resources\main\mapper\UserMapper.xml]'
+2025-10-31 12:12:21.952 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-31 12:12:21.970 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-10-31 12:12:22.120 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-10-31 12:12:22.200 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:12:22.213 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 12:12:22.218 [main] INFO  o.e.p.ProjectBoardPjwApplication - Started ProjectBoardPjwApplication in 2.489 seconds (process running for 2.907)
+2025-10-31 12:12:39.089 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 12:12:39.090 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 12:12:39.092 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-31 12:12:39.386 [http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [115] milliseconds.
+2025-10-31 12:12:39.386 [http-nio-8080-exec-2] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [115] milliseconds.
+2025-10-31 12:13:13.914 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 12:13:14.010 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 12:13:14.013 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:13:14.015 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-31 12:13:14.019 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-31 12:17:18.381 [main] INFO  o.e.p.ProjectBoardPjwApplication - Starting ProjectBoardPjwApplication using Java 17.0.12 with PID 3456 (C:\PJW\project_board_PJW\build\classes\java\main started by DIR in C:\PJW\project_board_PJW)
+2025-10-31 12:17:18.382 [main] DEBUG o.e.p.ProjectBoardPjwApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 12:17:18.383 [main] INFO  o.e.p.ProjectBoardPjwApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 12:17:18.836 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2025-10-31 12:17:18.836 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'org.example.project_board_pjw'
+2025-10-31 12:17:18.882 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-31 12:17:18.894 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-10-31 12:17:18.973 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\PJW\project_board_PJW\build\classes\java\main\org\example\project_board_pjw\mapper\UserMapper.class]
+2025-10-31 12:17:18.974 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'org.example.project_board_pjw.mapper.UserMapper' mapperInterface
+2025-10-31 12:17:19.307 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 12:17:19.315 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:17:19.316 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 12:17:19.316 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-31 12:17:19.365 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 12:17:19.365 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 950 ms
+2025-10-31 12:17:19.457 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-31 12:17:19.580 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20349058
+2025-10-31 12:17:19.581 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-31 12:17:19.611 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-31 12:17:19.656 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-31 12:17:19.678 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-31 12:17:19.881 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-31 12:17:19.961 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-31 12:17:20.178 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-31 12:17:20.185 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:17:20.299 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\PJW\project_board_PJW\build\resources\main\mapper\UserMapper.xml]'
+2025-10-31 12:17:20.329 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-31 12:17:20.348 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-10-31 12:17:20.506 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-10-31 12:17:20.594 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:17:20.607 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 12:17:20.615 [main] INFO  o.e.p.ProjectBoardPjwApplication - Started ProjectBoardPjwApplication in 2.701 seconds (process running for 3.132)
+2025-10-31 12:17:26.696 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 12:17:26.696 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 12:17:26.697 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-31 12:21:45.931 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 12:21:46.029 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 12:21:46.034 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:21:46.036 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-31 12:21:46.041 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-31 12:21:50.092 [main] INFO  o.e.p.ProjectBoardPjwApplication - Starting ProjectBoardPjwApplication using Java 17.0.12 with PID 2036 (C:\PJW\project_board_PJW\build\classes\java\main started by DIR in C:\PJW\project_board_PJW)
+2025-10-31 12:21:50.093 [main] DEBUG o.e.p.ProjectBoardPjwApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 12:21:50.094 [main] INFO  o.e.p.ProjectBoardPjwApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 12:21:50.537 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2025-10-31 12:21:50.538 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'org.example.project_board_pjw'
+2025-10-31 12:21:50.585 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-31 12:21:50.597 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-10-31 12:21:50.672 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\PJW\project_board_PJW\build\classes\java\main\org\example\project_board_pjw\mapper\UserMapper.class]
+2025-10-31 12:21:50.673 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'org.example.project_board_pjw.mapper.UserMapper' mapperInterface
+2025-10-31 12:21:50.967 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 12:21:50.976 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:21:50.977 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 12:21:50.977 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-31 12:21:51.017 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 12:21:51.017 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 888 ms
+2025-10-31 12:21:51.102 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-31 12:21:51.219 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@216372b7
+2025-10-31 12:21:51.220 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-31 12:21:51.245 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-31 12:21:51.286 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-31 12:21:51.308 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-31 12:21:51.507 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-31 12:21:51.582 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-31 12:21:51.796 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-31 12:21:51.799 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:21:51.912 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\PJW\project_board_PJW\build\resources\main\mapper\UserMapper.xml]'
+2025-10-31 12:21:51.947 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-31 12:21:51.969 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-10-31 12:21:52.128 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-10-31 12:21:52.217 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 12:21:52.229 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 12:21:52.235 [main] INFO  o.e.p.ProjectBoardPjwApplication - Started ProjectBoardPjwApplication in 2.597 seconds (process running for 3.025)
+2025-10-31 12:22:03.035 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 12:22:03.036 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 12:22:03.038 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-10-31 12:22:53.046 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-10-31 12:22:53.055 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fa16066] was not registered for synchronization because synchronization is not active
+2025-10-31 12:22:53.075 [http-nio-8080-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1331943068 wrapping com.mysql.cj.jdbc.ConnectionImpl@216372b7] will not be managed by Spring
+2025-10-31 12:22:53.079 [http-nio-8080-exec-1] DEBUG o.e.p.m.UserMapper.selectUserById - ==>  Preparing: SELECT user_id, user_pw, user_nm, last_login_dt, profile_img, skin_id, point_amt, leave_dt, create_dt, create_id, update_dt, update_id, user_st, user_role, rmk_txt FROM user_tb WHERE user_id = ?
+2025-10-31 12:22:53.111 [http-nio-8080-exec-1] DEBUG o.e.p.m.UserMapper.selectUserById - ==> Parameters: testId@testme.com(String)
+2025-10-31 12:22:53.135 [http-nio-8080-exec-1] DEBUG o.e.p.m.UserMapper.selectUserById - <==      Total: 1
+2025-10-31 12:22:53.136 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fa16066]
+2025-10-31 12:24:25.375 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-10-31 12:24:25.375 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ac4edbe] was not registered for synchronization because synchronization is not active
+2025-10-31 12:24:25.376 [http-nio-8080-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@872613014 wrapping com.mysql.cj.jdbc.ConnectionImpl@216372b7] will not be managed by Spring
+2025-10-31 12:24:25.376 [http-nio-8080-exec-2] DEBUG o.e.p.m.UserMapper.selectUserById - ==>  Preparing: SELECT user_id, user_pw, user_nm, last_login_dt, profile_img, skin_id, point_amt, leave_dt, create_dt, create_id, update_dt, update_id, user_st, user_role, rmk_txt FROM user_tb WHERE user_id = ?
+2025-10-31 12:24:25.377 [http-nio-8080-exec-2] DEBUG o.e.p.m.UserMapper.selectUserById - ==> Parameters: testId@testme.com(String)
+2025-10-31 12:24:25.380 [http-nio-8080-exec-2] DEBUG o.e.p.m.UserMapper.selectUserById - <==      Total: 1
+2025-10-31 12:24:25.380 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ac4edbe]
+2025-10-31 12:25:00.632 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-10-31 12:25:00.632 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1511f1e2] was not registered for synchronization because synchronization is not active
+2025-10-31 12:25:00.633 [http-nio-8080-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@671330325 wrapping com.mysql.cj.jdbc.ConnectionImpl@216372b7] will not be managed by Spring
+2025-10-31 12:25:00.633 [http-nio-8080-exec-2] DEBUG o.e.p.m.UserMapper.selectUserById - ==>  Preparing: SELECT user_id, user_pw, user_nm, last_login_dt, profile_img, skin_id, point_amt, leave_dt, create_dt, create_id, update_dt, update_id, user_st, user_role, rmk_txt FROM user_tb WHERE user_id = ?
+2025-10-31 12:25:00.634 [http-nio-8080-exec-2] DEBUG o.e.p.m.UserMapper.selectUserById - ==> Parameters: testId@testme.com(String)
+2025-10-31 12:25:00.636 [http-nio-8080-exec-2] DEBUG o.e.p.m.UserMapper.selectUserById - <==      Total: 1
+2025-10-31 12:25:00.636 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1511f1e2]
+2025-10-31 12:26:06.271 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 12:26:06.381 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 12:26:06.386 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-31 12:26:06.392 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-31 12:26:06.397 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

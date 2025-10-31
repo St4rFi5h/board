@@ -20,18 +20,18 @@
             user_st         /*유저상태 */
         )
         VALUES
-            (
-                #{userId},     /*ID*/
-                #{userPw},     /*비밀번호*/
-                #{userNm},     /*이름*/
-                #{profileImg}, /*프로필 사진 링크*/
-                #{skinId},     /*적용된 스킨*/
-                0,             /*포인트*/
-                NOW(),         /*생성날자*/
-                #{createId},   /*생성자*/
-                'USER',        /*유저 역할 N: 일반 A :관리자*/
-                'N'            /*유저상태 */
-            )
+        (
+            #{userId},     /*ID*/
+            #{userPw},     /*비밀번호*/
+            #{userNm},     /*이름*/
+            #{profileImg}, /*프로필 사진 링크*/
+            #{skinId},     /*적용된 스킨*/
+            0,             /*포인트*/
+            NOW(),         /*생성날자*/
+            #{createId},   /*생성자*/
+            'USER',        /*유저 역할 N: 일반 A :관리자*/
+            'N'            /*유저상태 */
+         )
     </insert>
 
     <!-- 단일 회원 조회 -->
@@ -39,7 +39,7 @@
         SELECT
             user_id,
             user_pw,
-            nmUser,
+            user_nm,
             last_login_dt,
             profile_img,
             skin_id,
@@ -50,6 +50,7 @@
             update_dt,
             update_id,
             user_st,
+            user_role,
             rmk_txt
         FROM user_tb
         WHERE user_id = #{userId}
@@ -59,7 +60,7 @@
     <select id="selectAllUsers" resultType="org.example.project_board_pjw.domain.User">
         SELECT
             user_id,
-            um_user,
+            user_nm,
             profile_img,
             point_amt,
             create_dt,
@@ -69,7 +70,7 @@
     </select>
 
     <!-- 아이디 중복검사 -->
-    <select id="countByUserId" parameterType="string" resultType="int">
+    <select id="findByUserId" parameterType="string" resultType="int">
         SELECT COUNT(*) FROM user_tb WHERE user_id = #{userId}
     </select>
 

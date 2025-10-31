@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./ImageSlider.css";
+import "./css/ImageSlider.css";
 
 const images = [
     "/images/boradGame.jpg",
     "/images/climb.jpg",
-    "/images/banner3.jpg",
+    "/images/roastPost.jpg",
 ];
 
 function ImageSlider() {

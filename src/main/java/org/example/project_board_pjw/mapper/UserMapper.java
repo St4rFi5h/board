@@ -6,5 +6,8 @@ import org.example.project_board_pjw.domain.User;
 @Mapper
 public interface UserMapper {
     int insertUser(User user);
-    User findById(String userId);
+
+    int findByUserId(String userId);
+
+    User selectUserById(String userId);
 }
